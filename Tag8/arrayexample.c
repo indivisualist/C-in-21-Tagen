@@ -4,6 +4,8 @@ float ausgaben[13];
 int count;
 
 int main(void) {
+	/* skipping index 0 is intentional! */
+
 	for (count=1; count<13; count++) {
 		printf("Ausgaben fuer Monat %d: ", count);
 		scanf("%f", &ausgaben[count]);
