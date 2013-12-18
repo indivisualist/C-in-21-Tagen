@@ -15,6 +15,7 @@ int main(void) {
 
 	float *fzahlen;
 	fzahlen = (float *) malloc(10 * sizeof(float));
+	/* kein Check */
 
 	printf("Alles okay!");
 	return 0;
