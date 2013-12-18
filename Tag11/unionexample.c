@@ -37,7 +37,7 @@ int main(void) {
 
 void ausgabe(struct s_generisch generisch) {
 
-	printf("\nDer generische Wert ist ...");
+	printf("\nDer generische Wert ist ... ");
 	
 	switch (generisch.typ) {
 		case CHARACTER :
