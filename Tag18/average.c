@@ -9,7 +9,7 @@ int main() {
 
 	x = durchschnitt(10, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
 	printf("Der erste Durchschnittswert betraegt %f.", x);
-	x = durchschnitt(3, 101, 200, 987, 654, 321);
+	x = durchschnitt(5, 101, 200, 987, 654, 321);
 	printf("\nDer zweite Durchschnittswert betraegt %f.", x);
 
 	return 0;
